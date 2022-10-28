@@ -49,7 +49,7 @@ By default, the application is served on port 8080 but this can be changed if ne
 The size limit for the file upload in the nginx configuration is currently set to 128 MB.
 
 ```sh
-$ docker-compose -f docker-compose.prod.yml up --build
+$ docker-compose -f docker-compose.prod.yml up --build -d
 ```
 
 
